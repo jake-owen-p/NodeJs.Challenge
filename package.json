@@ -1,0 +1,20 @@
+{
+  "name": "faethm-backend-test",
+  "version": "0.1.0",
+  "description": "Faethm backend engineer question.",
+  "main": "index.js",
+  "author": "Angus Tse <angus.tse@pearson.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "dev": "nodemon server node --config .nodemonrc.json --inspect",
+    "test": "jest --detectOpenHandles"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
